@@ -1,0 +1,61 @@
+.container {
+	width:980px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"search searsh"
+	"nekropol tabl"
+	"text tabl"
+	"text2 tabl";
+}
+.header {
+	background-color: #0033cc;
+	padding: 5px;
+	border: 1px solid #white;
+	grid-area: header;
+}
+.search {
+	padding: 10px;
+	color: #00061a;
+	background-color: white;
+	grid-area: search;
+}
+.nekropol {
+	padding: 10px;
+	color: #000000;
+	background-color: white;
+	grid-area: nekropol;
+}
+.box1 {
+	color: #000000;
+	background-color: white;
+}
+.text {
+	background-color: white;
+	color: #ff3300;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: right;
+	grid-area: text;
+}
+.text2 {
+	grid-area: text2;
+}
+.tabl {
+	grid-area: tabl;
+}
+.picture {
+	font-size: 25px;
+	color: #808080;
+	text-align: left;
+}
+.picture2 {
+	margin-right: 20px;
+}
+.box4 {
+	padding-top: 20px;
+}
+.box5 {
+	padding-top: 20px;
+}
